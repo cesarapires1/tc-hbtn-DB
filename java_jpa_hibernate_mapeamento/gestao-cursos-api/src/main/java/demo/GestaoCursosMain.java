@@ -27,21 +27,21 @@ public class GestaoCursosMain {
         Endereco enderecoAluno3 = new Endereco("Rua", "Bernadino Macieira", "144", "Centro", "Lavras", "MG", 37200200);
 
         aluno1.setNomeCompleto("Cesar Augusto Pires");
-        aluno1.setDataNascimento(new SimpleDateFormat("dd/MM/yyyy").parse("04/02/1999"));
+        aluno1.setNascimento(new SimpleDateFormat("dd/MM/yyyy").parse("04/02/1999"));
         aluno1.setMatricula("201910560");
         aluno1.setEmail("cesarp@ciandt.com");
         aluno1.setTelefone(List.of(telefoneAluno1));
         aluno1.setEndereco(List.of(enderecoAluno1));
 
         aluno2.setNomeCompleto("Alice Lopes");
-        aluno2.setDataNascimento(new SimpleDateFormat("dd/MM/yyyy").parse("26/06/1999"));
+        aluno2.setNascimento(new SimpleDateFormat("dd/MM/yyyy").parse("26/06/1999"));
         aluno2.setMatricula("201910500");
         aluno2.setEmail("alicelopes@vidaveg.com");
         aluno2.setTelefone(List.of(telefoneAluno2));
         aluno2.setEndereco(List.of(enderecoAluno2));
 
         aluno3.setNomeCompleto("Meg Rodrigues Pires");
-        aluno3.setDataNascimento(new SimpleDateFormat("dd/MM/yyyy").parse("25/03/2022"));
+        aluno3.setNascimento(new SimpleDateFormat("dd/MM/yyyy").parse("25/03/2022"));
         aluno3.setMatricula("201910560");
         aluno3.setEmail("megrodriguespires@estudante.com");
         aluno3.setTelefone(List.of(telefoneAluno3));
